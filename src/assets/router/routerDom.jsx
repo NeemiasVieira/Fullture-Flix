@@ -5,7 +5,7 @@ import React from "react";
 import Error404 from "../../Pages/Error404/Error404";
 export function RouterDOM(){
     return(
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Routes>
         <Route index element={<Home/>}/>
         <Route path="/details" element={<Details/>}/>
