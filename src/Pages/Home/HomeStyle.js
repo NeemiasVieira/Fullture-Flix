@@ -47,11 +47,19 @@ export const Catalogue = styled(Link)`
     
     h2{
         color: whitesmoke;
-        margin: 0 0 7vh 0;
-        justify-content: center;
+        margin: 0 0 7vh 3vw;
+        font-weight: 900;
         display: flex;
         position: relative;
         min-width: 100%;
+    }
+
+    @media (max-width: 480px){
+        h2{
+            font-size: 1.2em;
+            justify-content: center;
+            margin: 0 0 7vh 0;
+        }
     }
     `
 
