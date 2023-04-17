@@ -16,10 +16,10 @@ export const Error1 = styled(Link)`
     }
     button{
         margin-top: 3vh;
-        border-radius: 4px;
+        border-radius: 15px;
         background-color: #333;
         color: whitesmoke;
-        height: 10vh;
+        height: 8vh;
         width: 50vw;
         font-size: large;
         text-decoration: none;
@@ -31,6 +31,16 @@ export const Error1 = styled(Link)`
             color: white;
             cursor: pointer;
             text-decoration: none;
+        }
+
+    }
+
+    @media (max-width: 480px){
+
+        margin-top: 15vh;
+        img{
+            height: 40vh;
+            width: 80vw;
         }
 
     }

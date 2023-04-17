@@ -16,4 +16,9 @@ padding: 20px 0;
 font-size: 2.8vh;
 margin: 7vh 0 0 0;
 
+
+@media (max-width: 480px){
+    font-size: 1.2em;
+}
+
 `

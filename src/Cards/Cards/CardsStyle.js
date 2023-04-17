@@ -6,10 +6,9 @@ export const Container = styled.div`
     flex-direction: column;
     border: 1px solid whitesmoke;
     margin: 1vh 1vw;
-    padding-top: 5vh;
     text-align: center;
     align-items: center;
-    min-height: 60vh;
+    min-height: 55vh;
     color: whitesmoke;
     max-height: 45vh;
     overflow: hidden;
@@ -25,8 +24,12 @@ export const Container = styled.div`
     }
     img{
         max-height: 45vh;
-        
-    
+    }
+
+
+    @media (max-width: 480px){
+        width: 65vw;
+        margin: 0 17.5vw 2vh 17.5vw;
     }
 
 

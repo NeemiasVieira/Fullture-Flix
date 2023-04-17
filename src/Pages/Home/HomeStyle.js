@@ -5,11 +5,16 @@ import {Link} from "react-router-dom"
 
 export const Headerdiv = styled.div`
     background-image: url(${bgimage});
+    background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
     display: flex;
     height: 100vh;
     color: whitesmoke;
+
+    @media (max-width: 480px){
+        height: 40vh;
+    }
     
     
     `
@@ -34,18 +39,19 @@ export const Catalogue = styled(Link)`
         max-width: 50vw;
     }
 
+
+
     `
 
     export const HomeTitle = styled.div`
     
     h2{
         color: whitesmoke;
-        margin: 0;
+        margin: 0 0 7vh 0;
+        justify-content: center;
         display: flex;
         position: relative;
-        padding: 0 0 10vh 3vw;
-        max-width: 50vw;
-        min-width: auto;
+        min-width: 100%;
     }
     `
 
