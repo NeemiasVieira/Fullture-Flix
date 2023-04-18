@@ -12,7 +12,7 @@ export const Container = styled.div`
     color: whitesmoke;
     max-height: 45vh;
     overflow: hidden;
-    width: 275px;
+    width: 240px;
 
     :hover{
         border: 1px solid #e50914;
@@ -25,7 +25,7 @@ export const Container = styled.div`
     }
     img{
         max-height: 45vh;
-        min-width: 275px;
+        min-width: 240px;
     }
 
 
