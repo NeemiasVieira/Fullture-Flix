@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "b2c32255ac97387bfa6b",
+    "revision": "b265ac2609eae8c4f021",
     "url": "/Fullture-Flix/static/css/main.a584e4ad.chunk.css"
   },
   {
-    "revision": "b2c32255ac97387bfa6b",
-    "url": "/Fullture-Flix/static/js/main.cc27867f.chunk.js"
+    "revision": "b265ac2609eae8c4f021",
+    "url": "/Fullture-Flix/static/js/main.2af051ff.chunk.js"
   },
   {
     "revision": "25caf6469f12efa517fd",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/Fullture-Flix/static/media/error401.e9a4dd50.png"
   },
   {
-    "revision": "29fc33a709a47ea6e22f9d38694ba402",
+    "revision": "89d31b33f8974ec2a79fedd9d053cf22",
     "url": "/Fullture-Flix/index.html"
   }
 ];
