@@ -30,6 +30,7 @@ export const Catalogue = styled(Link)`
     min-height: 90vh;
     gap: 1vw;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    cursor: default;
 
     h2{
         margin: 0;
