@@ -12,6 +12,7 @@ export const Container = styled.div`
     color: whitesmoke;
     max-height: 45vh;
     overflow: hidden;
+    width: 230px;
 
     :hover{
         border: 1px solid #e50914;
