@@ -26,7 +26,7 @@ return(
     </Father>
 )
 
-//"Text foi utilizado como parâmetro para passar as informações para o componente"
+//"Text foi utilizado como parâmetro para passar as informações para o componente "
 
 }
 
