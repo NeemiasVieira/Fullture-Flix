@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Fullture-Flix/precache-manifest.c1ba4d4d27a1831adb6842139fc6bcf7.js"
+  "/Fullture-Flix/precache-manifest.11d02cca43e32c085d883da3c74b1579.js"
 );
 
 workbox.clientsClaim();
