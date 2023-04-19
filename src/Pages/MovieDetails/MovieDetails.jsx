@@ -1,10 +1,8 @@
 import { Footer } from "../../Cards/Footer/Footer";
-import { Header } from "../../Cards/Header/Header";
-import { BackgroundBlack, Grid, MainContainer, RigthSide } from "./MovieDetailsStyle";
 import {Link} from 'react-router-dom'
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { Detalhes } from "./MovieDetailsStyle";
+import { Detalhes, MovieDetails, Data } from "./MovieDetailsStyle";
 import { FooterDetails } from "../../Cards/Footer/FooterStyle";
 import { pickMovieDetails } from "../../assets/api/api";
 import { getMovieDetails } from "../../assets/redux/slice";
@@ -36,21 +34,25 @@ function Details() {
 
 
   return (
-    <>
+    <MovieDetails>
       <Detalhes>
         <img src={`https://image.tmdb.org/t/p/w500/${poster_path}`} alt="" />
-        <div>
+        <Data>
+          <div>
           <p><b>Title: </b>{title}</p>
           <p><b>Overview: </b>{overview}</p>
           <p><b>Release Date: </b>{release_date}</p>
           <p><b>Score: </b>{vote_average}</p>
+          </div>
+          <div>
           <Link to="/"> <button>Back to home</button> </Link>
-        </div>          
+          </div>
+        </Data>          
       </Detalhes>
       <FooterDetails>
       <Footer text="FULLFLIX © 2023 - All rights reserved"/>
       </FooterDetails>
-      </>
+      </MovieDetails>
 
   );
 }

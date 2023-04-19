@@ -2,44 +2,115 @@ import styled from "styled-components";
 
 export const Detalhes = styled.div`
     display: flex;
-    flex-flow: row wrap;
-    justfiy-content: center;    
-    margin: 5vh 5vw 0 5vw;
-    background-color: #ccc;
-    border: 2px solid black;
-    max-width: 1000px;
+    flex-flow: row wrap;   
+    margin-top: 5vh;
+    margin-bottom: 5.1vh;
+    background-color: rgba(40,40,40,1);
+    border: 2px solid #444;
+    max-width: 1280px;
+    min-width: 600px;
+    color: whitesmoke;   
 
     img{
-        width: 55vw;
-        height: 85vh;
-        max-width: 550px;
+        width: 30vw;
+        height: 80vh;
+        max-width: 400px;
+        border-right: solid black 2px;
     }
 
-    div{
-        width: 20vw;
-        max-width: 300px;
-        height: 81vh;
-        padding: 2vh 0 2vh 4vw;
-    }
-
+  
     button{
-        margin-top: 25vh;
-        margin-left: 2vw;
+        justify-self: flex-end;
+        background: rgb(229, 9, 20);
         max-width: 250px;
-        width: 20vw;
-        height: 4vh;
-        background-color: white;
-        color: black;
-        font-weight: 700;
+        width: 300px;
+        height: 5vh;
+        color: #ccc;
+        font-weight: 500;
         font-size: 1.2em;
         border-radius: 10px;
-        border: solid black 1px;
         cursor: pointer;
-        transition: all 200ms;
+        transition: all 500ms;
+        border: solid rgb(229, 9, 20) 1px;
         :hover{
             color: white;
-            background-color: black;
+            background: rgb(193, 17, 25);
+            border: solid rgb(193, 17, 25) 1px;
+            transform: scale(1.02);
         }
     }
+
+    @media (max-width: 480px){
+        justfiy-content: center;    
+        margin-top: 2vh;
+        margin-bottom: 5.1vh;
+        background-color: rgba(40,40,40,1);
+        border: 2px solid #444;
+        color: whitesmoke;
+        font-size: 0.7em;
+        min-width: 300px;
+        height: 50vh;
+        
+
+        img{
+            width: 50vw;
+            height: 50vh;
+        }
+
+
+        button{
+            width: 30vw;
+            height: 4vh;
+            font-size: 1em;
+        }
+    }
+
+`
+
+export const MovieDetails = styled.section`
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    overflow-x: hidden;
+
+    @media (max-width: 480px){
+        width: 100vw;
+        height: 100vh;
+        justify-content: initial;
+        
+
+    }
+
+`
+
+export const Data = styled.div`
+
+width: 70vw;
+max-width: 300px;
+height: 80vh;
+padding: 0 1.5vw;
+display: flex;
+flex-flow: column wrap;
+justify-content: space-between;
+
+button{
+    margin-left: 26px;
+    margin-bottom: 20px;    
+}
+
+
+@media (max-width: 480px){
+    width: 40vw;
+    max-width: 300px;
+    height: 50vh;
+    padding: 0 2vw;
+}
+
+button{
+    margin-left: 22.5px  
+}
 
 `

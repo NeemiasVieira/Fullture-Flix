@@ -1,11 +1,9 @@
 import { useEffect, useState } from "react";
-import { pickMovieDetails, pickMovies } from "../../assets/api/api";
-import React, { Component }  from 'react';
+import { pickMovies } from "../../assets/api/api";
+import React  from 'react';
 import { Container } from "./CardsStyle";
 import { Catalogue } from "../../Pages/Home/HomeStyle";
-import {Link} from "react-router-dom"
-import { useDispatch } from "react-redux";
-import { getMovieDetails } from "../../assets/redux/slice";
+
 
 export function Cards(){
 

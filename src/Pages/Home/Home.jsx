@@ -1,9 +1,9 @@
 import { Footer } from "../../Cards/Footer/Footer";
 import React from "react";
-import { useState, useEffect} from "react";
+import { useEffect } from "react";
 import { Cards } from "../../Cards/Cards/Cards";
 import { Header } from "../../Cards/Header/Header";
-import { Headerdiv, Catalogue, HomeTitle, Father} from "./HomeStyle";
+import { Headerdiv, HomeTitle, Father} from "./HomeStyle";
 import { FooterHome } from "../../Cards/Footer/FooterStyle";
 
  function Home(){   

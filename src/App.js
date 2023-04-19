@@ -1,5 +1,5 @@
 
-import React, { Component }  from 'react';
+import React from 'react';
 import { RouterDOM } from './assets/router/routerDom';
 
 //Importações para utilização das páginas e componentes
