@@ -8,7 +8,7 @@ export function RouterDOM(){
     <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Routes>
         <Route index element={<Home/>}/>
-        <Route path="/details" element={<Details/>}/>
+        <Route path="/details/:movieid" element={<Details/>}/>
         <Route path="*" element={<Error404/>}/>
 
     </Routes>

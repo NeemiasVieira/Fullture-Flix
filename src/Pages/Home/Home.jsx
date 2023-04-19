@@ -6,12 +6,9 @@ import { Header } from "../../Cards/Header/Header";
 import { Headerdiv, Catalogue, HomeTitle, Father} from "./HomeStyle";
 import { FooterHome } from "../../Cards/Footer/FooterStyle";
 
- function Home(){
-
+ function Home(){   
     
-    
-    useEffect(() => {
-        
+    useEffect(() => {       
 
     },[])
 
@@ -21,7 +18,7 @@ return(
         <HomeTitle><Header text="The most popular movies"/></HomeTitle>
         <Cards/>
         <FooterHome>
-        <Footer text="FULLFILIX © 2022 - All rights reserved"/>
+        <Footer text="FULLFLIX © 2023 - All rights reserved"/>
         </FooterHome>
     </Father>
 )

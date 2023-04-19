@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import bgimage from "../../assets/img/fullflix.jpeg"
-import {Link} from "react-router-dom"
+
 
 
 export const Headerdiv = styled.div`
@@ -19,7 +19,7 @@ export const Headerdiv = styled.div`
     
     `
 
-export const Catalogue = styled(Link)`
+export const Catalogue = styled.div`
 
 
 

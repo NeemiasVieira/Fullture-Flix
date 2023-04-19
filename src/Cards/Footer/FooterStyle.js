@@ -22,3 +22,22 @@ margin: 7vh 0 0 0;
 }
 
 `
+
+export const FooterDetails = styled.div`
+
+background-color: #222;
+color: whitesmoke;
+font-family: sans-serif;
+font-weight: 600;
+height: 70px;
+margin-top: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 2.8vh;
+
+
+@media (max-width: 480px){
+    font-size: 1.2em;
+}
+`
