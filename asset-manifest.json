@@ -1,15 +1,15 @@
 {
-  "main.css": "/Fullture-Flix/static/css/main.a584e4ad.chunk.css",
-  "main.js": "/Fullture-Flix/static/js/main.3bbd7474.chunk.js",
-  "main.js.map": "/Fullture-Flix/static/js/main.3bbd7474.chunk.js.map",
-  "runtime~main.js": "/Fullture-Flix/static/js/runtime~main.cab73539.js",
-  "runtime~main.js.map": "/Fullture-Flix/static/js/runtime~main.cab73539.js.map",
-  "static/js/2.d93cc821.chunk.js": "/Fullture-Flix/static/js/2.d93cc821.chunk.js",
-  "static/js/2.d93cc821.chunk.js.map": "/Fullture-Flix/static/js/2.d93cc821.chunk.js.map",
-  "index.html": "/Fullture-Flix/index.html",
-  "precache-manifest.9ba6ed136e1f8512afd34023e5bad3ec.js": "/Fullture-Flix/precache-manifest.9ba6ed136e1f8512afd34023e5bad3ec.js",
-  "service-worker.js": "/Fullture-Flix/service-worker.js",
-  "static/css/main.a584e4ad.chunk.css.map": "/Fullture-Flix/static/css/main.a584e4ad.chunk.css.map",
-  "static/media/error401.png": "/Fullture-Flix/static/media/error401.e9a4dd50.png",
-  "static/media/fullflix.jpeg": "/Fullture-Flix/static/media/fullflix.d119368b.jpeg"
+  "files": {
+    "main.css": "/Fullture-Flix/static/css/main.e6c13ad2.css",
+    "main.js": "/Fullture-Flix/static/js/main.8fac9a68.js",
+    "static/media/fullflix.jpeg": "/Fullture-Flix/static/media/fullflix.a4b6385c6f865dcc8fe0.jpeg",
+    "static/media/error401.png": "/Fullture-Flix/static/media/error401.0c423d4c2b9d1daa474e.png",
+    "index.html": "/Fullture-Flix/index.html",
+    "main.e6c13ad2.css.map": "/Fullture-Flix/static/css/main.e6c13ad2.css.map",
+    "main.8fac9a68.js.map": "/Fullture-Flix/static/js/main.8fac9a68.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.8fac9a68.js"
+  ]
 }
