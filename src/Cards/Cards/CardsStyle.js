@@ -14,6 +14,7 @@ export const Container = styled(Link)`
     max-height: 45vh;
     overflow: hidden;
     width: 240px;
+    text-decoration: none;
 
     :hover{
         border: 1px solid #e50914;
