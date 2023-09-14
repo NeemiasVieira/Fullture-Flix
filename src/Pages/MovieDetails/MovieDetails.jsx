@@ -7,11 +7,12 @@ import { FooterDetails } from "../../Cards/Footer/FooterStyle";
 import { pickMovieDetails } from "../../assets/api/api";
 import { getMovieDetails } from "../../assets/redux/slice";
 import { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 
 function Details() {
 
   const dispatch = useDispatch();
+  const navigate = useNavigate();
   const state = useSelector((state) => state.page.value2)
   const [details, setDetails] = useState();
   const {movieid} = useParams();
@@ -45,7 +46,7 @@ function Details() {
           <p><b>Score: </b>{vote_average}</p>
           </div>
           <div>
-          <Link to="/"> <button>Back to home</button> </Link>
+          <button onClick={() => navigate(-1)}>Back to home</button>
           </div>
         </Data>          
       </Detalhes>
