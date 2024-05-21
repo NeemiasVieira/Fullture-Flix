@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Fullture-Flix/static/css/main.e6c13ad2.css",
-    "main.js": "/Fullture-Flix/static/js/main.e13b210b.js",
+    "main.css": "/Fullture-Flix/static/css/main.a25811df.css",
+    "main.js": "/Fullture-Flix/static/js/main.c988712b.js",
     "static/media/fullflix.jpeg": "/Fullture-Flix/static/media/fullflix.a4b6385c6f865dcc8fe0.jpeg",
     "static/media/error401.png": "/Fullture-Flix/static/media/error401.0c423d4c2b9d1daa474e.png",
     "index.html": "/Fullture-Flix/index.html",
-    "main.e6c13ad2.css.map": "/Fullture-Flix/static/css/main.e6c13ad2.css.map",
-    "main.e13b210b.js.map": "/Fullture-Flix/static/js/main.e13b210b.js.map"
+    "main.a25811df.css.map": "/Fullture-Flix/static/css/main.a25811df.css.map",
+    "main.c988712b.js.map": "/Fullture-Flix/static/js/main.c988712b.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.e13b210b.js"
+    "static/css/main.a25811df.css",
+    "static/js/main.c988712b.js"
   ]
 }
