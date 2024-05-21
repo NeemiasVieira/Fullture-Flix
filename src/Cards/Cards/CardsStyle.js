@@ -9,13 +9,13 @@ export const Container = styled(Link)`
     margin: 1vh 1vw;
     text-align: center;
     align-items: center;
-    justify-content: center;
-    min-height: 55vh;
+    height: 420px;  
     color: whitesmoke;
-    max-height: 45vh;
     overflow: hidden;
     width: 240px;
     text-decoration: none;
+    border-radius: 10px 10px 0 0;
+    background-color: #111;
 
     :hover{
         border: 1px solid #e50914;
@@ -23,12 +23,14 @@ export const Container = styled(Link)`
     }
 
     h4{
-        margin: 1vh 0;
-        padding: 1vh;
-        color: whitesmoke;
+        margin: 5px 0;
+        padding: 10px;
+        color: #ddd;
+        font-weight: 400;
+        font-style: italic;
     }
     img{
-        max-height: 45vh;
+        height: 350px;
         min-width: 240px;
     }
 

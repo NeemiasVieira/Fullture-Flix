@@ -96,6 +96,12 @@ display: flex;
 flex-flow: column wrap;
 justify-content: space-between;
 
+p:nth-child(2){
+    text-overflow: ellipsis;
+    max-height: 400px;
+    overflow-y: hidden;
+}
+
 button{
     margin-left: 26px;
     margin-bottom: 20px;    

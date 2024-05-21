@@ -21,16 +21,11 @@ export const Headerdiv = styled.div`
 
 export const Catalogue = styled.div`
 
-
-
-    display: grid;
+    display: flex;
     justify-content: center;
     align-items: center;
-    height: fit-content;
-    min-height: 90vh;
-    gap: 1vw;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    cursor: default;
+    flex-flow: row wrap;
+    gap: 35px;
 
     h2{
         margin: 0;
@@ -44,7 +39,7 @@ export const Catalogue = styled.div`
 
     `
 
-    export const HomeTitle = styled.div`
+export const HomeTitle = styled.div`
     
     h2{
         color: whitesmoke;
